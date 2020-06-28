@@ -24,3 +24,47 @@ nav {
 .nav-list-item {
   margin-left: 40px;
 }
+
+.main {
+  margin: 80px 0px;
+  .info {
+    width: 400px;
+    margin: 15px 0px;
+  }
+  .question {
+    font-size: 12px;
+    a {
+      color: dodgerblue;
+    }
+  }
+}
+
+hr {
+  color: lightgray;
+}
+
+.calander {
+  margin: 30px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  .row {
+    width: 350px;
+    .hashtags {
+      color: gray;
+      &__blue {
+        color: dodgerblue;
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    li {
+      margin-left: 40px;
+    }
+  }
+}

@@ -27,4 +27,56 @@ nav {
 .nav-list-item {
   margin-left: 40px;
 }
+
+.main {
+  margin: 80px 0px;
+}
+
+.main .info {
+  width: 400px;
+  margin: 15px 0px;
+}
+
+.main .question {
+  font-size: 12px;
+}
+
+.main .question a {
+  color: dodgerblue;
+}
+
+hr {
+  color: lightgray;
+}
+
+.calander {
+  margin: 30px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calander .row {
+  width: 350px;
+}
+
+.calander .row .hashtags {
+  color: gray;
+}
+
+.calander .row .hashtags__blue {
+  color: dodgerblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 40px;
+}
 /*# sourceMappingURL=main.css.map */
