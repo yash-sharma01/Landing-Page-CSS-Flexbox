@@ -15,16 +15,31 @@ li {
   list-style: none;
 }
 
+body {
+  background: linear-gradient(135deg, #37b7d4, #843ade);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+body .container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 60px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
 }
 
-.nav-list {
+nav .nav-list {
   display: flex;
 }
 
-.nav-list-item {
+nav .nav-list .nav-list-item {
   margin-left: 40px;
 }
 
