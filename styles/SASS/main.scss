@@ -83,3 +83,15 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 376px) {
+  .calander {
+    font-size: 14px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    .row {
+      width: 200px;
+    }
+  }
+}
